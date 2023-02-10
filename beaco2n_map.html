@@ -1,0 +1,2450 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c159819e67bc428db796027bfbac3441 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c159819e67bc428db796027bfbac3441" ></div>
+        
+</body>
+<script>    
+    
+            var map_c159819e67bc428db796027bfbac3441 = L.map(
+                "map_c159819e67bc428db796027bfbac3441",
+                {
+                    center: [37.95399999999999, -122.074],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e6c4c8698ef1458d819f19337dcb8149 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var marker_8060a2d4ee2c4ddfa726f98d54303fa2 = L.marker(
+                [38.291, -122.506],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_130d7b249b384d6097aa6e7e3a33d4d1 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         01  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_8060a2d4ee2c4ddfa726f98d54303fa2.setIcon(div_icon_130d7b249b384d6097aa6e7e3a33d4d1);
+        
+    
+        var popup_055eb28c2dd74c9fbd050b97751d0a0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ce8c8e0c4f144de8569562ed44e346b = $(`<div id="html_1ce8c8e0c4f144de8569562ed44e346b" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Stone Edge Farms (Vineyard)  <b>Lat, lon:</b> 38.291, -122.506 <b>Height (ground, sea):</b> nan, 57.940933 <b>Deployed:</b> 2015-02-02 <b>Group:</b> ['Sonoma']</div>`)[0];
+            popup_055eb28c2dd74c9fbd050b97751d0a0f.setContent(html_1ce8c8e0c4f144de8569562ed44e346b);
+        
+
+        marker_8060a2d4ee2c4ddfa726f98d54303fa2.bindPopup(popup_055eb28c2dd74c9fbd050b97751d0a0f)
+        ;
+
+        
+    
+    
+            marker_8060a2d4ee2c4ddfa726f98d54303fa2.bindTooltip(
+                `<div>
+                     Stone Edge Farms (Vineyard)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3260894227294c32bd7118a403c0772a = L.marker(
+                [38.289, -122.503],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_983f9cb0e1eb4ea38f40166301c0a7be = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         02  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_3260894227294c32bd7118a403c0772a.setIcon(div_icon_983f9cb0e1eb4ea38f40166301c0a7be);
+        
+    
+        var popup_1d3f358d88d94bb99072cb003a312e4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34fe9f412ee2498e8369bc3816b43c0f = $(`<div id="html_34fe9f412ee2498e8369bc3816b43c0f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Stone Edge Farms (Turbine)  <b>Lat, lon:</b> 38.289, -122.503 <b>Height (ground, sea):</b> nan, 54.551334 <b>Deployed:</b> 2015-02-02 <b>Group:</b> ['Sonoma']</div>`)[0];
+            popup_1d3f358d88d94bb99072cb003a312e4d.setContent(html_34fe9f412ee2498e8369bc3816b43c0f);
+        
+
+        marker_3260894227294c32bd7118a403c0772a.bindPopup(popup_1d3f358d88d94bb99072cb003a312e4d)
+        ;
+
+        
+    
+    
+            marker_3260894227294c32bd7118a403c0772a.bindTooltip(
+                `<div>
+                     Stone Edge Farms (Turbine)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b71d8f1dace848e887285a03f63caaf3 = L.marker(
+                [37.824, -122.233],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_87997d3787a74decb01f64c1e5e0a416 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         03  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_b71d8f1dace848e887285a03f63caaf3.setIcon(div_icon_87997d3787a74decb01f64c1e5e0a416);
+        
+    
+        var popup_3928252756ef40989de36454fbe661f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f925bb8587dc4f679a441eae164cf860 = $(`<div id="html_f925bb8587dc4f679a441eae164cf860" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Piedmont High School  <b>Lat, lon:</b> 37.824, -122.233 <b>Height (ground, sea):</b> 10.0, 91.290054 <b>Deployed:</b> 2013-05-09 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_3928252756ef40989de36454fbe661f6.setContent(html_f925bb8587dc4f679a441eae164cf860);
+        
+
+        marker_b71d8f1dace848e887285a03f63caaf3.bindPopup(popup_3928252756ef40989de36454fbe661f6)
+        ;
+
+        
+    
+    
+            marker_b71d8f1dace848e887285a03f63caaf3.bindTooltip(
+                `<div>
+                     Piedmont High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_21c5bb1af8894c01a8aaa5c99b941ff5 = L.marker(
+                [37.831, -122.213],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_7622cb36c43c443d94698f3256b930e5 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         04  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_21c5bb1af8894c01a8aaa5c99b941ff5.setIcon(div_icon_7622cb36c43c443d94698f3256b930e5);
+        
+    
+        var popup_81b954bdb6e94e44b69f0b58833be2b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_647d621ab63447a2b6ab03ae19d98ad9 = $(`<div id="html_647d621ab63447a2b6ab03ae19d98ad9" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Montclair Elementary School  <b>Lat, lon:</b> 37.831, -122.213 <b>Height (ground, sea):</b> 4.0, 185.787262 <b>Deployed:</b> 2013-05-08 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_81b954bdb6e94e44b69f0b58833be2b1.setContent(html_647d621ab63447a2b6ab03ae19d98ad9);
+        
+
+        marker_21c5bb1af8894c01a8aaa5c99b941ff5.bindPopup(popup_81b954bdb6e94e44b69f0b58833be2b1)
+        ;
+
+        
+    
+    
+            marker_21c5bb1af8894c01a8aaa5c99b941ff5.bindTooltip(
+                `<div>
+                     Montclair Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b734a38640e3468a8a628543fb361579 = L.marker(
+                [37.796, -122.279],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_01d3102d3a0849da8634f524170361f6 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         05  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_b734a38640e3468a8a628543fb361579.setIcon(div_icon_01d3102d3a0849da8634f524170361f6);
+        
+    
+        var popup_16ef39a5651b4c40a84cf8716cddd3cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_670f117496a1454fb09f5b0ad1bd9348 = $(`<div id="html_670f117496a1454fb09f5b0ad1bd9348" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Port of Oakland  <b>Lat, lon:</b> 37.796, -122.279 <b>Height (ground, sea):</b> 32.0, 3.464535 <b>Deployed:</b> 2013-03-14 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_16ef39a5651b4c40a84cf8716cddd3cd.setContent(html_670f117496a1454fb09f5b0ad1bd9348);
+        
+
+        marker_b734a38640e3468a8a628543fb361579.bindPopup(popup_16ef39a5651b4c40a84cf8716cddd3cd)
+        ;
+
+        
+    
+    
+            marker_b734a38640e3468a8a628543fb361579.bindTooltip(
+                `<div>
+                     Port of Oakland
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02c400a208f34c69bfabc711d0bd4adc = L.marker(
+                [37.798, -122.161],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_789f3a3e4169480f890d00b2bc9e6293 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         07  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_02c400a208f34c69bfabc711d0bd4adc.setIcon(div_icon_789f3a3e4169480f890d00b2bc9e6293);
+        
+    
+        var popup_c51d1498531f41579209727910f201ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f350e4811ad34db88f27ac6e182bcf08 = $(`<div id="html_f350e4811ad34db88f27ac6e182bcf08" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Skyline High School  <b>Lat, lon:</b> 37.798, -122.161 <b>Height (ground, sea):</b> 3.0, 348.402222 <b>Deployed:</b> 2012-04-06 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_c51d1498531f41579209727910f201ac.setContent(html_f350e4811ad34db88f27ac6e182bcf08);
+        
+
+        marker_02c400a208f34c69bfabc711d0bd4adc.bindPopup(popup_c51d1498531f41579209727910f201ac)
+        ;
+
+        
+    
+    
+            marker_02c400a208f34c69bfabc711d0bd4adc.bindTooltip(
+                `<div>
+                     Skyline High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6a565ecef60415fa02050c625b10838 = L.marker(
+                [37.736, -122.196],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_677dde040bc541c0b1dcaf68739e646c = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         08  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_f6a565ecef60415fa02050c625b10838.setIcon(div_icon_677dde040bc541c0b1dcaf68739e646c);
+        
+    
+        var popup_37cf15cf04a048ffa0ac67fa44640b63 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8565fc392ccd4621aa5b0ef4c77ec816 = $(`<div id="html_8565fc392ccd4621aa5b0ef4c77ec816" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Lighthouse Charter School  <b>Lat, lon:</b> 37.736, -122.196 <b>Height (ground, sea):</b> 7.8232, 4.04323 <b>Deployed:</b> 2012-12-13 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_37cf15cf04a048ffa0ac67fa44640b63.setContent(html_8565fc392ccd4621aa5b0ef4c77ec816);
+        
+
+        marker_f6a565ecef60415fa02050c625b10838.bindPopup(popup_37cf15cf04a048ffa0ac67fa44640b63)
+        ;
+
+        
+    
+    
+            marker_f6a565ecef60415fa02050c625b10838.bindTooltip(
+                `<div>
+                     Lighthouse Charter School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a2e9a01e9a74811b32b126171686196 = L.marker(
+                [37.863, -122.314],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_06ca429ea8df487796e2459f9b0d4d27 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         09  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_1a2e9a01e9a74811b32b126171686196.setIcon(div_icon_06ca429ea8df487796e2459f9b0d4d27);
+        
+    
+        var popup_772065a24b634a0fa932cb73615fd56e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1161dc2f0e74fd684d8571233219d3b = $(`<div id="html_e1161dc2f0e74fd684d8571233219d3b" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Berkeley Marina 3  <b>Lat, lon:</b> 37.863, -122.314 <b>Height (ground, sea):</b> 2.0, 2.64313 <b>Deployed:</b> 2017-01-26 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_772065a24b634a0fa932cb73615fd56e.setContent(html_e1161dc2f0e74fd684d8571233219d3b);
+        
+
+        marker_1a2e9a01e9a74811b32b126171686196.bindPopup(popup_772065a24b634a0fa932cb73615fd56e)
+        ;
+
+        
+    
+    
+            marker_1a2e9a01e9a74811b32b126171686196.bindTooltip(
+                `<div>
+                     Berkeley Marina 3
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62edece1ba654795a0b38dc3e854d75e = L.marker(
+                [38.006, -121.642],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_310ce0679d424347a5c84052cb51f569 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         10  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_62edece1ba654795a0b38dc3e854d75e.setIcon(div_icon_310ce0679d424347a5c84052cb51f569);
+        
+    
+        var popup_7a4baade7de0460399608dbac92aeb87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2834d72a40945d4850a9b01e86171e8 = $(`<div id="html_f2834d72a40945d4850a9b01e86171e8" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Bethel Island  <b>Lat, lon:</b> 38.006, -121.642 <b>Height (ground, sea):</b> nan, -1.495771 <b>Deployed:</b> 2016-12-01 <b>Group:</b> ['ContraCosta']</div>`)[0];
+            popup_7a4baade7de0460399608dbac92aeb87.setContent(html_f2834d72a40945d4850a9b01e86171e8);
+        
+
+        marker_62edece1ba654795a0b38dc3e854d75e.bindPopup(popup_7a4baade7de0460399608dbac92aeb87)
+        ;
+
+        
+    
+    
+            marker_62edece1ba654795a0b38dc3e854d75e.bindTooltip(
+                `<div>
+                     Bethel Island
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8888e0640bd5481c81bc21cfc277b2e1 = L.marker(
+                [37.788, -122.392],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_206cb1ef28074e2f941a24ce3aa4e895 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         11  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_8888e0640bd5481c81bc21cfc277b2e1.setIcon(div_icon_206cb1ef28074e2f941a24ce3aa4e895);
+        
+    
+        var popup_106710c3e0d840eeb152dfe4eb83c1f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0e59035690e44ffa611b1c808abcb05 = $(`<div id="html_e0e59035690e44ffa611b1c808abcb05" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Bay Area Metro Center  <b>Lat, lon:</b> 37.788, -122.392 <b>Height (ground, sea):</b> 42.0, 4.921234 <b>Deployed:</b> 2017-06-06 <b>Group:</b> ['SanFrancisco', "SF Nodes - Anna's Subnetwork"]</div>`)[0];
+            popup_106710c3e0d840eeb152dfe4eb83c1f3.setContent(html_e0e59035690e44ffa611b1c808abcb05);
+        
+
+        marker_8888e0640bd5481c81bc21cfc277b2e1.bindPopup(popup_106710c3e0d840eeb152dfe4eb83c1f3)
+        ;
+
+        
+    
+    
+            marker_8888e0640bd5481c81bc21cfc277b2e1.bindTooltip(
+                `<div>
+                     Bay Area Metro Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2962c8a66b614147852ac8ffc7ca5d7b = L.marker(
+                [37.952, -122.327],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_7f786dbfc8ba4c5a95eb7da2961ea8bd = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         12  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_2962c8a66b614147852ac8ffc7ca5d7b.setIcon(div_icon_7f786dbfc8ba4c5a95eb7da2961ea8bd);
+        
+    
+        var popup_8a0d5ca42e3e4c35b541fcdeabdc85fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12e275bf909f468ca1e950e2e24904a6 = $(`<div id="html_12e275bf909f468ca1e950e2e24904a6" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Riverside Elementary School  <b>Lat, lon:</b> 37.952, -122.327 <b>Height (ground, sea):</b> 3.0, 19.189966 <b>Deployed:</b> 2017-06-13 <b>Group:</b> ['ContraCosta', 'Richmond']</div>`)[0];
+            popup_8a0d5ca42e3e4c35b541fcdeabdc85fc.setContent(html_12e275bf909f468ca1e950e2e24904a6);
+        
+
+        marker_2962c8a66b614147852ac8ffc7ca5d7b.bindPopup(popup_8a0d5ca42e3e4c35b541fcdeabdc85fc)
+        ;
+
+        
+    
+    
+            marker_2962c8a66b614147852ac8ffc7ca5d7b.bindTooltip(
+                `<div>
+                     Riverside Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f0c5e36473549a8b975a51e7bb803bd = L.marker(
+                [37.953, -122.347],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_c54747db318a4c2e884f436837356c09 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         13  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_6f0c5e36473549a8b975a51e7bb803bd.setIcon(div_icon_c54747db318a4c2e884f436837356c09);
+        
+    
+        var popup_c8f78255986d40c981e8e63d1b78aacf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e42caf43da674dcfaf6aa5c13d99c22e = $(`<div id="html_e42caf43da674dcfaf6aa5c13d99c22e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Richmond High School  <b>Lat, lon:</b> 37.953, -122.347 <b>Height (ground, sea):</b> nan, 21.040581 <b>Deployed:</b> 2017-06-13 <b>Group:</b> ['ContraCosta', 'Richmond', "Richmond 1 - Naomi's Subnetwork"]</div>`)[0];
+            popup_c8f78255986d40c981e8e63d1b78aacf.setContent(html_e42caf43da674dcfaf6aa5c13d99c22e);
+        
+
+        marker_6f0c5e36473549a8b975a51e7bb803bd.bindPopup(popup_c8f78255986d40c981e8e63d1b78aacf)
+        ;
+
+        
+    
+    
+            marker_6f0c5e36473549a8b975a51e7bb803bd.bindTooltip(
+                `<div>
+                     Richmond High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff21f16c67274362b5126dcae64371ce = L.marker(
+                [37.963, -122.338],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_2ffd45dcebd3494386b6b077621fafe2 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         14  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_ff21f16c67274362b5126dcae64371ce.setIcon(div_icon_2ffd45dcebd3494386b6b077621fafe2);
+        
+    
+        var popup_05545811b1b4408082b1deee9d5dae44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aae46e5abbb54406927f1b49cea96e16 = $(`<div id="html_aae46e5abbb54406927f1b49cea96e16" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Helms Middle School  <b>Lat, lon:</b> 37.963, -122.338 <b>Height (ground, sea):</b> nan, 19.189966 <b>Deployed:</b> 2017-06-13 <b>Group:</b> ['ContraCosta', 'Richmond', "Richmond 1 - Naomi's Subnetwork"]</div>`)[0];
+            popup_05545811b1b4408082b1deee9d5dae44.setContent(html_aae46e5abbb54406927f1b49cea96e16);
+        
+
+        marker_ff21f16c67274362b5126dcae64371ce.bindPopup(popup_05545811b1b4408082b1deee9d5dae44)
+        ;
+
+        
+    
+    
+            marker_ff21f16c67274362b5126dcae64371ce.bindTooltip(
+                `<div>
+                     Helms Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_652d81ae469a4c039cc0b1654d8b4d47 = L.marker(
+                [38.008, -122.273],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_7693d25f5e434660837cbecf37b59a2e = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         15  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_652d81ae469a4c039cc0b1654d8b4d47.setIcon(div_icon_7693d25f5e434660837cbecf37b59a2e);
+        
+    
+        var popup_21eed436498a47caa634c155a4f5d1ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3a662f29ef14b51a0d034b9adb3616c = $(`<div id="html_b3a662f29ef14b51a0d034b9adb3616c" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Ohlone Elementary School  <b>Lat, lon:</b> 38.008, -122.273 <b>Height (ground, sea):</b> nan, 25.881994 <b>Deployed:</b> 2017-06-14 <b>Group:</b> ['ContraCosta', 'Richmond']</div>`)[0];
+            popup_21eed436498a47caa634c155a4f5d1ba.setContent(html_b3a662f29ef14b51a0d034b9adb3616c);
+        
+
+        marker_652d81ae469a4c039cc0b1654d8b4d47.bindPopup(popup_21eed436498a47caa634c155a4f5d1ba)
+        ;
+
+        
+    
+    
+            marker_652d81ae469a4c039cc0b1654d8b4d47.bindTooltip(
+                `<div>
+                     Ohlone Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29956ea3c61a427599e2d32b9626cd75 = L.marker(
+                [37.982, -122.273],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_80fb2cc097ac497daba2c661277d94f1 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         16  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_29956ea3c61a427599e2d32b9626cd75.setIcon(div_icon_80fb2cc097ac497daba2c661277d94f1);
+        
+    
+        var popup_f55834ada3dd41a9a9309cb4ff2b0c3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c95202ca1b6b4090a5795a5257f940b2 = $(`<div id="html_c95202ca1b6b4090a5795a5257f940b2" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Ellerhorst Elementary School  <b>Lat, lon:</b> 37.982, -122.273 <b>Height (ground, sea):</b> nan, 33.97823 <b>Deployed:</b> 2017-06-14 <b>Group:</b> ['ContraCosta', 'Richmond']</div>`)[0];
+            popup_f55834ada3dd41a9a9309cb4ff2b0c3f.setContent(html_c95202ca1b6b4090a5795a5257f940b2);
+        
+
+        marker_29956ea3c61a427599e2d32b9626cd75.bindPopup(popup_f55834ada3dd41a9a9309cb4ff2b0c3f)
+        ;
+
+        
+    
+    
+            marker_29956ea3c61a427599e2d32b9626cd75.bindTooltip(
+                `<div>
+                     Ellerhorst Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_21cf6dc01c734467863580a1c7cb534a = L.marker(
+                [37.99, -122.291],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_ad26065d50b84b98b9b191fb3f92b296 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         17  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_21cf6dc01c734467863580a1c7cb534a.setIcon(div_icon_ad26065d50b84b98b9b191fb3f92b296);
+        
+    
+        var popup_30ff1226a2aa4f50ade6c140c6dee996 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a7cbe5b97fc46f3860301d60a26c07d = $(`<div id="html_5a7cbe5b97fc46f3860301d60a26c07d" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Stewart Elementary School  <b>Lat, lon:</b> 37.99, -122.291 <b>Height (ground, sea):</b> nan, 59.361778 <b>Deployed:</b> 2017-06-14 <b>Group:</b> ['ContraCosta', 'Richmond']</div>`)[0];
+            popup_30ff1226a2aa4f50ade6c140c6dee996.setContent(html_5a7cbe5b97fc46f3860301d60a26c07d);
+        
+
+        marker_21cf6dc01c734467863580a1c7cb534a.bindPopup(popup_30ff1226a2aa4f50ade6c140c6dee996)
+        ;
+
+        
+    
+    
+            marker_21cf6dc01c734467863580a1c7cb534a.bindTooltip(
+                `<div>
+                     Stewart Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eeca1de2e8ba47e7b41eb91fc7f817e4 = L.marker(
+                [37.997, -122.303],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_b32467357c2a4094bc239645b007e5a3 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         18  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_eeca1de2e8ba47e7b41eb91fc7f817e4.setIcon(div_icon_b32467357c2a4094bc239645b007e5a3);
+        
+    
+        var popup_75a7910086874ccabb4cc972856f19b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a358294113946e0a10cfb58cac815c8 = $(`<div id="html_0a358294113946e0a10cfb58cac815c8" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Pinole Middle School  <b>Lat, lon:</b> 37.997, -122.303 <b>Height (ground, sea):</b> 7.8, 74.900185 <b>Deployed:</b> 2017-06-14 <b>Group:</b> ['ContraCosta', 'Richmond']</div>`)[0];
+            popup_75a7910086874ccabb4cc972856f19b4.setContent(html_0a358294113946e0a10cfb58cac815c8);
+        
+
+        marker_eeca1de2e8ba47e7b41eb91fc7f817e4.bindPopup(popup_75a7910086874ccabb4cc972856f19b4)
+        ;
+
+        
+    
+    
+            marker_eeca1de2e8ba47e7b41eb91fc7f817e4.bindTooltip(
+                `<div>
+                     Pinole Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e59704353a7f412b9dc234537ba022d7 = L.marker(
+                [37.986, -122.308],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_6e88fbb903bd4ce4ac694eb330db277e = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         19  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_e59704353a7f412b9dc234537ba022d7.setIcon(div_icon_6e88fbb903bd4ce4ac694eb330db277e);
+        
+    
+        var popup_c8701ce053b44684935d0e887507f958 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18b62f5ce556401f98fe9f4274e56f69 = $(`<div id="html_18b62f5ce556401f98fe9f4274e56f69" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Crespi Middle School  <b>Lat, lon:</b> 37.986, -122.308 <b>Height (ground, sea):</b> nan, 82.265877 <b>Deployed:</b> 2017-06-14 <b>Group:</b> ['ContraCosta', 'Richmond']</div>`)[0];
+            popup_c8701ce053b44684935d0e887507f958.setContent(html_18b62f5ce556401f98fe9f4274e56f69);
+        
+
+        marker_e59704353a7f412b9dc234537ba022d7.bindPopup(popup_c8701ce053b44684935d0e887507f958)
+        ;
+
+        
+    
+    
+            marker_e59704353a7f412b9dc234537ba022d7.bindTooltip(
+                `<div>
+                     Crespi Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bee5f69ea264008b901239de68dc250 = L.marker(
+                [37.928, -122.359],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_70ae5316a4654483b01a96771ce07f46 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         20  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_8bee5f69ea264008b901239de68dc250.setIcon(div_icon_70ae5316a4654483b01a96771ce07f46);
+        
+    
+        var popup_bdaea9f135c445248a6b115882481f20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25063c6c4f0e45f6ba31e01ee4bdd829 = $(`<div id="html_25063c6c4f0e45f6ba31e01ee4bdd829" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Nystrom Elementary School  <b>Lat, lon:</b> 37.928, -122.359 <b>Height (ground, sea):</b> 9.538, 5.776453 <b>Deployed:</b> 2017-06-15 <b>Group:</b> ['ContraCosta', 'Richmond', "Richmond 1 - Naomi's Subnetwork"]</div>`)[0];
+            popup_bdaea9f135c445248a6b115882481f20.setContent(html_25063c6c4f0e45f6ba31e01ee4bdd829);
+        
+
+        marker_8bee5f69ea264008b901239de68dc250.bindPopup(popup_bdaea9f135c445248a6b115882481f20)
+        ;
+
+        
+    
+    
+            marker_8bee5f69ea264008b901239de68dc250.bindTooltip(
+                `<div>
+                     Nystrom Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76ff5ae5e3e74c089354d91eb6aecc45 = L.marker(
+                [37.925, -122.381],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_dad4fd277c2e4c0dbc2b84aca97a395b = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         21  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_76ff5ae5e3e74c089354d91eb6aecc45.setIcon(div_icon_dad4fd277c2e4c0dbc2b84aca97a395b);
+        
+    
+        var popup_5ed5747220d944e887a96e0bd8b6f153 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_badcbeb402aa4331af7e5d4ec9e48288 = $(`<div id="html_badcbeb402aa4331af7e5d4ec9e48288" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Washington Elementary School  <b>Lat, lon:</b> 37.925, -122.381 <b>Height (ground, sea):</b> 5.111, 2.94197 <b>Deployed:</b> 2017-06-15 <b>Group:</b> ['ContraCosta', 'Richmond', "Richmond 1 - Naomi's Subnetwork"]</div>`)[0];
+            popup_5ed5747220d944e887a96e0bd8b6f153.setContent(html_badcbeb402aa4331af7e5d4ec9e48288);
+        
+
+        marker_76ff5ae5e3e74c089354d91eb6aecc45.bindPopup(popup_5ed5747220d944e887a96e0bd8b6f153)
+        ;
+
+        
+    
+    
+            marker_76ff5ae5e3e74c089354d91eb6aecc45.bindTooltip(
+                `<div>
+                     Washington Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_468b000999964f289a0cf3bd6ebd49a9 = L.marker(
+                [37.934, -122.338],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_582a5c0911584960aeab9c8f72f0b8d8 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         22  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_468b000999964f289a0cf3bd6ebd49a9.setIcon(div_icon_582a5c0911584960aeab9c8f72f0b8d8);
+        
+    
+        var popup_a1ee400c3ccf4a53a14c8c7bc4bbc3e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0420c46cab344218a982f63a669e4377 = $(`<div id="html_0420c46cab344218a982f63a669e4377" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Dejean Middle School  <b>Lat, lon:</b> 37.934, -122.338 <b>Height (ground, sea):</b> 5.008, 17.409231 <b>Deployed:</b> 2017-06-15 <b>Group:</b> ['ContraCosta', 'Richmond', "Richmond 1 - Naomi's Subnetwork"]</div>`)[0];
+            popup_a1ee400c3ccf4a53a14c8c7bc4bbc3e7.setContent(html_0420c46cab344218a982f63a669e4377);
+        
+
+        marker_468b000999964f289a0cf3bd6ebd49a9.bindPopup(popup_a1ee400c3ccf4a53a14c8c7bc4bbc3e7)
+        ;
+
+        
+    
+    
+            marker_468b000999964f289a0cf3bd6ebd49a9.bindTooltip(
+                `<div>
+                     Dejean Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17c3b11d331c4f24a4a153f5d32b5c90 = L.marker(
+                [37.941, -122.314],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_5681b2b095ed40d797e26b9f0e1c8e89 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         23  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_17c3b11d331c4f24a4a153f5d32b5c90.setIcon(div_icon_5681b2b095ed40d797e26b9f0e1c8e89);
+        
+    
+        var popup_f8ca589726584eb7a195bc5db6a6ec44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfa6aef2ae7b49ff8f9688e4b92b2837 = $(`<div id="html_dfa6aef2ae7b49ff8f9688e4b92b2837" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Mira Vista Elementary School  <b>Lat, lon:</b> 37.941, -122.314 <b>Height (ground, sea):</b> 4.01, 100.03524 <b>Deployed:</b> 2017-06-15 <b>Group:</b> ['ContraCosta', 'Richmond']</div>`)[0];
+            popup_f8ca589726584eb7a195bc5db6a6ec44.setContent(html_dfa6aef2ae7b49ff8f9688e4b92b2837);
+        
+
+        marker_17c3b11d331c4f24a4a153f5d32b5c90.bindPopup(popup_f8ca589726584eb7a195bc5db6a6ec44)
+        ;
+
+        
+    
+    
+            marker_17c3b11d331c4f24a4a153f5d32b5c90.bindTooltip(
+                `<div>
+                     Mira Vista Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c262d9e92c54312af7ea900f5f78273 = L.marker(
+                [37.928, -122.299],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_96a2735056ae44268a1588f102ec91e9 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         24  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_2c262d9e92c54312af7ea900f5f78273.setIcon(div_icon_96a2735056ae44268a1588f102ec91e9);
+        
+    
+        var popup_54a243122bdc47118450915a8962ef45 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b5259ff0f9d4d6c8295fc7aa9372fd0 = $(`<div id="html_2b5259ff0f9d4d6c8295fc7aa9372fd0" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Madera Elementary School  <b>Lat, lon:</b> 37.928, -122.299 <b>Height (ground, sea):</b> 9.106, 206.726608 <b>Deployed:</b> 2017-06-15 <b>Group:</b> ['ContraCosta']</div>`)[0];
+            popup_54a243122bdc47118450915a8962ef45.setContent(html_2b5259ff0f9d4d6c8295fc7aa9372fd0);
+        
+
+        marker_2c262d9e92c54312af7ea900f5f78273.bindPopup(popup_54a243122bdc47118450915a8962ef45)
+        ;
+
+        
+    
+    
+            marker_2c262d9e92c54312af7ea900f5f78273.bindTooltip(
+                `<div>
+                     Madera Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_286468d9c58f4d949ba207a94cbc451d = L.marker(
+                [37.92, -122.306],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_4562feec395b4a1bb12eb0a1ff854b2d = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         25  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_286468d9c58f4d949ba207a94cbc451d.setIcon(div_icon_4562feec395b4a1bb12eb0a1ff854b2d);
+        
+    
+        var popup_a8e71bf856134d55a91cb520a326ed32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7000f263c502443cb110923d7fea751c = $(`<div id="html_7000f263c502443cb110923d7fea751c" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Fred T. Korematsu (Portola) Middle School  <b>Lat, lon:</b> 37.92, -122.306 <b>Height (ground, sea):</b> 5.371, 41.042336 <b>Deployed:</b> 2017-06-15 <b>Group:</b> ['ContraCosta', "Richmond 1 - Naomi's Subnetwork"]</div>`)[0];
+            popup_a8e71bf856134d55a91cb520a326ed32.setContent(html_7000f263c502443cb110923d7fea751c);
+        
+
+        marker_286468d9c58f4d949ba207a94cbc451d.bindPopup(popup_a8e71bf856134d55a91cb520a326ed32)
+        ;
+
+        
+    
+    
+            marker_286468d9c58f4d949ba207a94cbc451d.bindTooltip(
+                `<div>
+                     Fred T. Korematsu (Portola) Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_077629d501a2458b8a450cdd6fc69640 = L.marker(
+                [37.94, -122.365],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_bebbbd4cf5cc43f4bf59f11a37642bb0 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         26  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_077629d501a2458b8a450cdd6fc69640.setIcon(div_icon_bebbbd4cf5cc43f4bf59f11a37642bb0);
+        
+    
+        var popup_b09d1b68251b4038be4774fee528b85d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b31e14ae487b480185536383803288ce = $(`<div id="html_b31e14ae487b480185536383803288ce" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Peres Elementary School  <b>Lat, lon:</b> 37.94, -122.365 <b>Height (ground, sea):</b> 6.264, 6.107825 <b>Deployed:</b> 2017-06-16 <b>Group:</b> ['ContraCosta', 'Richmond', "Richmond 1 - Naomi's Subnetwork"]</div>`)[0];
+            popup_b09d1b68251b4038be4774fee528b85d.setContent(html_b31e14ae487b480185536383803288ce);
+        
+
+        marker_077629d501a2458b8a450cdd6fc69640.bindPopup(popup_b09d1b68251b4038be4774fee528b85d)
+        ;
+
+        
+    
+    
+            marker_077629d501a2458b8a450cdd6fc69640.bindTooltip(
+                `<div>
+                     Peres Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_05ca82bcf0634b7b8e98c368fd78c7ae = L.marker(
+                [38.008, -122.253],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_86ddc6149b7b4692afc3b458bdf14f20 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         27  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_05ca82bcf0634b7b8e98c368fd78c7ae.setIcon(div_icon_86ddc6149b7b4692afc3b458bdf14f20);
+        
+    
+        var popup_7c08479791fe4e29b04b4b3089c769d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81c4b9ad75424e708522b498e5c13884 = $(`<div id="html_81c4b9ad75424e708522b498e5c13884" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Lupine Hills Elementary School  <b>Lat, lon:</b> 38.008, -122.253 <b>Height (ground, sea):</b> 6.7, 45.144012 <b>Deployed:</b> 2017-06-16 <b>Group:</b> ['ContraCosta', 'Richmond']</div>`)[0];
+            popup_7c08479791fe4e29b04b4b3089c769d0.setContent(html_81c4b9ad75424e708522b498e5c13884);
+        
+
+        marker_05ca82bcf0634b7b8e98c368fd78c7ae.bindPopup(popup_7c08479791fe4e29b04b4b3089c769d0)
+        ;
+
+        
+    
+    
+            marker_05ca82bcf0634b7b8e98c368fd78c7ae.bindTooltip(
+                `<div>
+                     Lupine Hills Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4f6896b481140bd992abf8e4c330ce7 = L.marker(
+                [38.002, -122.289],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_860577cb106e47bbb505eb9c58db9474 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         28  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_c4f6896b481140bd992abf8e4c330ce7.setIcon(div_icon_860577cb106e47bbb505eb9c58db9474);
+        
+    
+        var popup_d2e3d1a78c5541cd92e43bef49e37c61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27a87cfc5bcc475094290780d82e46de = $(`<div id="html_27a87cfc5bcc475094290780d82e46de" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Collins Elementary School  <b>Lat, lon:</b> 38.002, -122.289 <b>Height (ground, sea):</b> nan, 9.618982 <b>Deployed:</b> 2017-06-16 <b>Group:</b> ['ContraCosta', 'Richmond']</div>`)[0];
+            popup_d2e3d1a78c5541cd92e43bef49e37c61.setContent(html_27a87cfc5bcc475094290780d82e46de);
+        
+
+        marker_c4f6896b481140bd992abf8e4c330ce7.bindPopup(popup_d2e3d1a78c5541cd92e43bef49e37c61)
+        ;
+
+        
+    
+    
+            marker_c4f6896b481140bd992abf8e4c330ce7.bindTooltip(
+                `<div>
+                     Collins Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6524a25a92ba456f8c3e6246f61ac549 = L.marker(
+                [37.995, -122.335],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_0de8b274e6a341ff85fcbedc898c0424 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         29  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_6524a25a92ba456f8c3e6246f61ac549.setIcon(div_icon_0de8b274e6a341ff85fcbedc898c0424);
+        
+    
+        var popup_c002b4b21f844941ad145de6a356b889 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_482c7e78900b467c8134c18525fe5524 = $(`<div id="html_482c7e78900b467c8134c18525fe5524" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Montalvin Elementary School  <b>Lat, lon:</b> 37.995, -122.335 <b>Height (ground, sea):</b> 5.033, 29.129711 <b>Deployed:</b> 2017-06-16 <b>Group:</b> ['ContraCosta', 'Richmond']</div>`)[0];
+            popup_c002b4b21f844941ad145de6a356b889.setContent(html_482c7e78900b467c8134c18525fe5524);
+        
+
+        marker_6524a25a92ba456f8c3e6246f61ac549.bindPopup(popup_c002b4b21f844941ad145de6a356b889)
+        ;
+
+        
+    
+    
+            marker_6524a25a92ba456f8c3e6246f61ac549.bindTooltip(
+                `<div>
+                     Montalvin Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d935a4da30f477fb2e9ab0c2f6dfcf5 = L.marker(
+                [37.967, -122.298],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_5e79d022ba914a639e4a5d7a7bb06c51 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         30  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_6d935a4da30f477fb2e9ab0c2f6dfcf5.setIcon(div_icon_5e79d022ba914a639e4a5d7a7bb06c51);
+        
+    
+        var popup_5b2c045e61a84b4dae73a2c77872cc32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d9672a491da49e39554139ccd90fda2 = $(`<div id="html_1d9672a491da49e39554139ccd90fda2" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Sheldon Elementary School  <b>Lat, lon:</b> 37.967, -122.298 <b>Height (ground, sea):</b> nan, 39.155693 <b>Deployed:</b> 2017-06-16 <b>Group:</b> ['ContraCosta', 'Richmond']</div>`)[0];
+            popup_5b2c045e61a84b4dae73a2c77872cc32.setContent(html_1d9672a491da49e39554139ccd90fda2);
+        
+
+        marker_6d935a4da30f477fb2e9ab0c2f6dfcf5.bindPopup(popup_5b2c045e61a84b4dae73a2c77872cc32)
+        ;
+
+        
+    
+    
+            marker_6d935a4da30f477fb2e9ab0c2f6dfcf5.bindTooltip(
+                `<div>
+                     Sheldon Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75fd114822dd4e308560743bc357a961 = L.marker(
+                [37.737, -122.175],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_05ed7bd43f3d441094536a9f66f7c1f4 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         31  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_75fd114822dd4e308560743bc357a961.setIcon(div_icon_05ed7bd43f3d441094536a9f66f7c1f4);
+        
+    
+        var popup_24b075db733949628d921f675e821906 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_175ea44763b64e56b9ded68f886efd15 = $(`<div id="html_175ea44763b64e56b9ded68f886efd15" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Fred T. Korematsu Elementary School  <b>Lat, lon:</b> 37.737, -122.175 <b>Height (ground, sea):</b> nan, 9.982938 <b>Deployed:</b> 2012-09-28 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_24b075db733949628d921f675e821906.setContent(html_175ea44763b64e56b9ded68f886efd15);
+        
+
+        marker_75fd114822dd4e308560743bc357a961.bindPopup(popup_24b075db733949628d921f675e821906)
+        ;
+
+        
+    
+    
+            marker_75fd114822dd4e308560743bc357a961.bindTooltip(
+                `<div>
+                     Fred T. Korematsu Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ceed90ba0df47ceb89ae7abde083216 = L.marker(
+                [37.804, -122.237],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_d0667581de314824b4f20f6ce95ee2d0 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         33  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_7ceed90ba0df47ceb89ae7abde083216.setIcon(div_icon_d0667581de314824b4f20f6ce95ee2d0);
+        
+    
+        var popup_b6cdc5d89dd64ab595089b00241ffb81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bedcaca035e347f3a50ef99eeeea9f22 = $(`<div id="html_bedcaca035e347f3a50ef99eeeea9f22" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Oakland High School  <b>Lat, lon:</b> 37.804, -122.237 <b>Height (ground, sea):</b> 9.528, 47.583321 <b>Deployed:</b> 2012-11-27 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_b6cdc5d89dd64ab595089b00241ffb81.setContent(html_bedcaca035e347f3a50ef99eeeea9f22);
+        
+
+        marker_7ceed90ba0df47ceb89ae7abde083216.bindPopup(popup_b6cdc5d89dd64ab595089b00241ffb81)
+        ;
+
+        
+    
+    
+            marker_7ceed90ba0df47ceb89ae7abde083216.bindTooltip(
+                `<div>
+                     Oakland High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2e3b8801ec54c46928b17bdbc1bea97 = L.marker(
+                [37.754, -122.155],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_dbbe70b120584a77a3e9313d48dfc9ef = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         35  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_a2e3b8801ec54c46928b17bdbc1bea97.setIcon(div_icon_dbbe70b120584a77a3e9313d48dfc9ef);
+        
+    
+        var popup_ec78f0c5f2f24023982518a5de41056c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec1a70dd739a462f9f1525ac2cf964b8 = $(`<div id="html_ec1a70dd739a462f9f1525ac2cf964b8" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Bishop O'Dowd High School  <b>Lat, lon:</b> 37.754, -122.155 <b>Height (ground, sea):</b> 3.0, 73.729637 <b>Deployed:</b> 2015-11-19 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_ec78f0c5f2f24023982518a5de41056c.setContent(html_ec1a70dd739a462f9f1525ac2cf964b8);
+        
+
+        marker_a2e3b8801ec54c46928b17bdbc1bea97.bindPopup(popup_ec78f0c5f2f24023982518a5de41056c)
+        ;
+
+        
+    
+    
+            marker_a2e3b8801ec54c46928b17bdbc1bea97.bindTooltip(
+                `<div>
+                     Bishop O'Dowd High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd4ef12beb21468f95aa32e1e80a097d = L.marker(
+                [37.833, -122.277],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_ee9da4073dcd4ce28addad011b5104aa = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         36  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_cd4ef12beb21468f95aa32e1e80a097d.setIcon(div_icon_ee9da4073dcd4ce28addad011b5104aa);
+        
+    
+        var popup_a6b65fa5db0949c78de6b8ee502d95c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b22f3f4e79e4f7da8c647c344c7f688 = $(`<div id="html_3b22f3f4e79e4f7da8c647c344c7f688" style="width: 100.0%; height: 100.0%;"><b>Name:</b> North Oakland Community Charter School  <b>Lat, lon:</b> 37.833, -122.277 <b>Height (ground, sea):</b> 3.0, 18.210779 <b>Deployed:</b> 2017-09-01 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_a6b65fa5db0949c78de6b8ee502d95c0.setContent(html_3b22f3f4e79e4f7da8c647c344c7f688);
+        
+
+        marker_cd4ef12beb21468f95aa32e1e80a097d.bindPopup(popup_a6b65fa5db0949c78de6b8ee502d95c0)
+        ;
+
+        
+    
+    
+            marker_cd4ef12beb21468f95aa32e1e80a097d.bindTooltip(
+                `<div>
+                     North Oakland Community Charter School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b81d1cd029a4828a04a5bb9265d143b = L.marker(
+                [37.848, -122.24],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_ad33417e556f48d19d89e31d840a6852 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         37  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_5b81d1cd029a4828a04a5bb9265d143b.setIcon(div_icon_ad33417e556f48d19d89e31d840a6852);
+        
+    
+        var popup_7b8a90eddc22459289300cd0c88ef048 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_469452ff88a5433f8027e54e87f4fd1f = $(`<div id="html_469452ff88a5433f8027e54e87f4fd1f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> College Preparatory School  <b>Lat, lon:</b> 37.848, -122.24 <b>Height (ground, sea):</b> 4.0, 93.145149 <b>Deployed:</b> 2017-09-01 <b>Group:</b> ['Alameda', "SF Nodes - Anna's Subnetwork"]</div>`)[0];
+            popup_7b8a90eddc22459289300cd0c88ef048.setContent(html_469452ff88a5433f8027e54e87f4fd1f);
+        
+
+        marker_5b81d1cd029a4828a04a5bb9265d143b.bindPopup(popup_7b8a90eddc22459289300cd0c88ef048)
+        ;
+
+        
+    
+    
+            marker_5b81d1cd029a4828a04a5bb9265d143b.bindTooltip(
+                `<div>
+                     College Preparatory School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f80beafbc2364592a0604dab209723cb = L.marker(
+                [37.779, -122.222],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_0e7d1f0893514ba2b65a7630f28a123b = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         38  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_f80beafbc2364592a0604dab209723cb.setIcon(div_icon_0e7d1f0893514ba2b65a7630f28a123b);
+        
+    
+        var popup_2448199bdb2742719034d81abc1f020c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d7c88a5b5d44b4ca42f40253234fb2b = $(`<div id="html_8d7c88a5b5d44b4ca42f40253234fb2b" style="width: 100.0%; height: 100.0%;"><b>Name:</b> St. Elizabeth High School  <b>Lat, lon:</b> 37.779, -122.222 <b>Height (ground, sea):</b> 11.0, 16.32342 <b>Deployed:</b> 2015-11-04 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_2448199bdb2742719034d81abc1f020c.setContent(html_8d7c88a5b5d44b4ca42f40253234fb2b);
+        
+
+        marker_f80beafbc2364592a0604dab209723cb.bindPopup(popup_2448199bdb2742719034d81abc1f020c)
+        ;
+
+        
+    
+    
+            marker_f80beafbc2364592a0604dab209723cb.bindTooltip(
+                `<div>
+                     St. Elizabeth High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5fbf3712ae84afc98595c054c9062c8 = L.marker(
+                [37.775, -122.404],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_7e286affc06f4b558192b37a32b4689e = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         39  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_e5fbf3712ae84afc98595c054c9062c8.setIcon(div_icon_7e286affc06f4b558192b37a32b4689e);
+        
+    
+        var popup_6fc712c7c8eb4ee39243a3c3208d4b2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efa144b1cdf145dbb13626155220a278 = $(`<div id="html_efa144b1cdf145dbb13626155220a278" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Hall of Justice  <b>Lat, lon:</b> 37.775, -122.404 <b>Height (ground, sea):</b> nan, 4.198341 <b>Deployed:</b> 2017-11-09 <b>Group:</b> ['SanFrancisco', "SF Nodes - Anna's Subnetwork"]</div>`)[0];
+            popup_6fc712c7c8eb4ee39243a3c3208d4b2a.setContent(html_efa144b1cdf145dbb13626155220a278);
+        
+
+        marker_e5fbf3712ae84afc98595c054c9062c8.bindPopup(popup_6fc712c7c8eb4ee39243a3c3208d4b2a)
+        ;
+
+        
+    
+    
+            marker_e5fbf3712ae84afc98595c054c9062c8.bindTooltip(
+                `<div>
+                     Hall of Justice
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cae3f2d7a5745df97f87e5f59377778 = L.marker(
+                [37.809, -122.205],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_c2841efe5a084439bf034f48925dc801 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         40  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_1cae3f2d7a5745df97f87e5f59377778.setIcon(div_icon_c2841efe5a084439bf034f48925dc801);
+        
+    
+        var popup_24044d170cd748c8a9d432b1aeb52243 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef24dc23ee2544fcab1eb51f2331f95d = $(`<div id="html_ef24dc23ee2544fcab1eb51f2331f95d" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Head Royce School  <b>Lat, lon:</b> 37.809, -122.205 <b>Height (ground, sea):</b> 7.0, 115.07666 <b>Deployed:</b> 2012-10-05 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_24044d170cd748c8a9d432b1aeb52243.setContent(html_ef24dc23ee2544fcab1eb51f2331f95d);
+        
+
+        marker_1cae3f2d7a5745df97f87e5f59377778.bindPopup(popup_24044d170cd748c8a9d432b1aeb52243)
+        ;
+
+        
+    
+    
+            marker_1cae3f2d7a5745df97f87e5f59377778.bindTooltip(
+                `<div>
+                     Head Royce School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8746bab9d6d404d9c2f2d5d2a893655 = L.marker(
+                [37.913, -122.336],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_73003ef62c094df4b056af1b5ebc425d = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         41  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_c8746bab9d6d404d9c2f2d5d2a893655.setIcon(div_icon_73003ef62c094df4b056af1b5ebc425d);
+        
+    
+        var popup_96d7df7a51484960940438270a180520 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6109d014e93d49c79f4396d6fdcc957e = $(`<div id="html_6109d014e93d49c79f4396d6fdcc957e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Richmond Field Station (RFS)  <b>Lat, lon:</b> 37.913, -122.336 <b>Height (ground, sea):</b> 4.9, 4.422341 <b>Deployed:</b> 2017-10-25 <b>Group:</b> ['ContraCosta', 'co-location', 'Richmond', "Richmond 1 - Naomi's Subnetwork"]</div>`)[0];
+            popup_96d7df7a51484960940438270a180520.setContent(html_6109d014e93d49c79f4396d6fdcc957e);
+        
+
+        marker_c8746bab9d6d404d9c2f2d5d2a893655.bindPopup(popup_96d7df7a51484960940438270a180520)
+        ;
+
+        
+    
+    
+            marker_c8746bab9d6d404d9c2f2d5d2a893655.bindTooltip(
+                `<div>
+                     Richmond Field Station (RFS)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_907426c5337442bca6e3db45e636e225 = L.marker(
+                [37.815, -122.282],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_437dd11b6f0c424ba4c3af894d628e55 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         42  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_907426c5337442bca6e3db45e636e225.setIcon(div_icon_437dd11b6f0c424ba4c3af894d628e55);
+        
+    
+        var popup_bafd357989584a1b84336d58ac25d9c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95240db5f7434677a3d14bccfb06221f = $(`<div id="html_95240db5f7434677a3d14bccfb06221f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> EBMUD  <b>Lat, lon:</b> 37.815, -122.282 <b>Height (ground, sea):</b> 3.0, 4.148859 <b>Deployed:</b> 2014-11-10 <b>Group:</b> ['Alameda', 'co-location', "SF Nodes - Anna's Subnetwork"]</div>`)[0];
+            popup_bafd357989584a1b84336d58ac25d9c5.setContent(html_95240db5f7434677a3d14bccfb06221f);
+        
+
+        marker_907426c5337442bca6e3db45e636e225.bindPopup(popup_bafd357989584a1b84336d58ac25d9c5)
+        ;
+
+        
+    
+    
+            marker_907426c5337442bca6e3db45e636e225.bindTooltip(
+                `<div>
+                     EBMUD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_045c220547de4eabb275aae183632642 = L.marker(
+                [37.96, -122.357],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_05cc9d66ad2e46eba0db1fe7f5f2bf36 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         43  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_045c220547de4eabb275aae183632642.setIcon(div_icon_05cc9d66ad2e46eba0db1fe7f5f2bf36);
+        
+    
+        var popup_26bc134c12da48d8be5551abb675a4be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec7bdcbde22749178df3c10cab6e7bf8 = $(`<div id="html_ec7bdcbde22749178df3c10cab6e7bf8" style="width: 100.0%; height: 100.0%;"><b>Name:</b> BAAQMD sanpablo  <b>Lat, lon:</b> 37.96, -122.357 <b>Height (ground, sea):</b> 5.44, 10.443056 <b>Deployed:</b> 2017-09-13 <b>Group:</b> ['ContraCosta', 'co-location', 'Richmond', "Richmond 1 - Naomi's Subnetwork"]</div>`)[0];
+            popup_26bc134c12da48d8be5551abb675a4be.setContent(html_ec7bdcbde22749178df3c10cab6e7bf8);
+        
+
+        marker_045c220547de4eabb275aae183632642.bindPopup(popup_26bc134c12da48d8be5551abb675a4be)
+        ;
+
+        
+    
+    
+            marker_045c220547de4eabb275aae183632642.bindTooltip(
+                `<div>
+                     BAAQMD sanpablo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_220a8255a60c4670b09fdc52d8fad228 = L.marker(
+                [37.896, -122.292],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_a8150d2bc4284e5aab0648c9760db3e6 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         44  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_220a8255a60c4670b09fdc52d8fad228.setIcon(div_icon_a8150d2bc4284e5aab0648c9760db3e6);
+        
+    
+        var popup_179e6d1ff8e146179dbace7f4c7e121c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8808fbb2e4654224a8b7f262dff8884c = $(`<div id="html_8808fbb2e4654224a8b7f262dff8884c" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Albany High School  <b>Lat, lon:</b> 37.896, -122.292 <b>Height (ground, sea):</b> 6.35, 25.554003 <b>Deployed:</b> 2017-08-18 <b>Group:</b> ['Alameda', "Richmond 1 - Naomi's Subnetwork"]</div>`)[0];
+            popup_179e6d1ff8e146179dbace7f4c7e121c.setContent(html_8808fbb2e4654224a8b7f262dff8884c);
+        
+
+        marker_220a8255a60c4670b09fdc52d8fad228.bindPopup(popup_179e6d1ff8e146179dbace7f4c7e121c)
+        ;
+
+        
+    
+    
+            marker_220a8255a60c4670b09fdc52d8fad228.bindTooltip(
+                `<div>
+                     Albany High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95b921457c024f8abbd490ccac4542d5 = L.marker(
+                [37.794, -122.263],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_9dbef8bd08ea478690584c3cc6404b94 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         45  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_95b921457c024f8abbd490ccac4542d5.setIcon(div_icon_9dbef8bd08ea478690584c3cc6404b94);
+        
+    
+        var popup_fe50c5686b5b46d7ae267935e01e3859 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adab260e202f4fe8b1098af54d934154 = $(`<div id="html_adab260e202f4fe8b1098af54d934154" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Laney College  <b>Lat, lon:</b> 37.794, -122.263 <b>Height (ground, sea):</b> 4.156075, 3.727162 <b>Deployed:</b> 2015-10-29 <b>Group:</b> ['Alameda', 'co-location', "SF Nodes - Anna's Subnetwork"]</div>`)[0];
+            popup_fe50c5686b5b46d7ae267935e01e3859.setContent(html_adab260e202f4fe8b1098af54d934154);
+        
+
+        marker_95b921457c024f8abbd490ccac4542d5.bindPopup(popup_fe50c5686b5b46d7ae267935e01e3859)
+        ;
+
+        
+    
+    
+            marker_95b921457c024f8abbd490ccac4542d5.bindTooltip(
+                `<div>
+                     Laney College
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc05eb5c32c94bb095ce87ab2cec5384 = L.marker(
+                [37.756, -122.405],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_cf94975ef17a4f98a8a32a237fdc5424 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         46  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_fc05eb5c32c94bb095ce87ab2cec5384.setIcon(div_icon_cf94975ef17a4f98a8a32a237fdc5424);
+        
+    
+        var popup_e6c3d79bacb1459998146132c74bfd9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91f6ba65ee1942b98641d1b3fa9caf1c = $(`<div id="html_91f6ba65ee1942b98641d1b3fa9caf1c" style="width: 100.0%; height: 100.0%;"><b>Name:</b> SF Hospital Bldg 5  <b>Lat, lon:</b> 37.756, -122.405 <b>Height (ground, sea):</b> 52.0, 23.94524 <b>Deployed:</b> 2017-03-15 <b>Group:</b> ['SanFrancisco', "SF Nodes - Anna's Subnetwork"]</div>`)[0];
+            popup_e6c3d79bacb1459998146132c74bfd9a.setContent(html_91f6ba65ee1942b98641d1b3fa9caf1c);
+        
+
+        marker_fc05eb5c32c94bb095ce87ab2cec5384.bindPopup(popup_e6c3d79bacb1459998146132c74bfd9a)
+        ;
+
+        
+    
+    
+            marker_fc05eb5c32c94bb095ce87ab2cec5384.bindTooltip(
+                `<div>
+                     SF Hospital Bldg 5
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c29d586a32142168c1fc2dd3c361ceb = L.marker(
+                [37.802, -122.397],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_182fad08df4945a1969036366b87c2a5 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         48  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_3c29d586a32142168c1fc2dd3c361ceb.setIcon(div_icon_182fad08df4945a1969036366b87c2a5);
+        
+    
+        var popup_bec2a175acde45189f08beb2b27df24a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e19e9bf522e42dabe1d5b72eb3f4034 = $(`<div id="html_4e19e9bf522e42dabe1d5b72eb3f4034" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Exploratorium Bay  <b>Lat, lon:</b> 37.802, -122.397 <b>Height (ground, sea):</b> 9.0, 3.0 <b>Deployed:</b> 2014-09-25 <b>Group:</b> ['SanFrancisco', "SF Nodes - Anna's Subnetwork"]</div>`)[0];
+            popup_bec2a175acde45189f08beb2b27df24a.setContent(html_4e19e9bf522e42dabe1d5b72eb3f4034);
+        
+
+        marker_3c29d586a32142168c1fc2dd3c361ceb.bindPopup(popup_bec2a175acde45189f08beb2b27df24a)
+        ;
+
+        
+    
+    
+            marker_3c29d586a32142168c1fc2dd3c361ceb.bindTooltip(
+                `<div>
+                     Exploratorium Bay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91cd2231511c4f7d8e50c0c11baf9afe = L.marker(
+                [37.775, -122.167],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_42dba55d1c4b405f8b0c70f9026e95f4 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         49  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_91cd2231511c4f7d8e50c0c11baf9afe.setIcon(div_icon_42dba55d1c4b405f8b0c70f9026e95f4);
+        
+    
+        var popup_d18a392354ca40e284ce14542b3e80e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_579c8e94642f4a1a97e89fa4ba24d78d = $(`<div id="html_579c8e94642f4a1a97e89fa4ba24d78d" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Burckhalter Elementary  <b>Lat, lon:</b> 37.775, -122.167 <b>Height (ground, sea):</b> 8.0, 88.480453 <b>Deployed:</b> 2018-04-23 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_d18a392354ca40e284ce14542b3e80e2.setContent(html_579c8e94642f4a1a97e89fa4ba24d78d);
+        
+
+        marker_91cd2231511c4f7d8e50c0c11baf9afe.bindPopup(popup_d18a392354ca40e284ce14542b3e80e2)
+        ;
+
+        
+    
+    
+            marker_91cd2231511c4f7d8e50c0c11baf9afe.bindTooltip(
+                `<div>
+                     Burckhalter Elementary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4c8ce0f23dd464b905f62c3eeeffcdf = L.marker(
+                [37.908, -122.295],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_bbd7c1aa24cd4aa285d9bdd2adc6f673 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         50  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_d4c8ce0f23dd464b905f62c3eeeffcdf.setIcon(div_icon_bbd7c1aa24cd4aa285d9bdd2adc6f673);
+        
+    
+        var popup_1bf9443a367f490e852c1fca1b5f1d88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7f1899afe994dbc91eb53f25629ef15 = $(`<div id="html_e7f1899afe994dbc91eb53f25629ef15" style="width: 100.0%; height: 100.0%;"><b>Name:</b> El Cerrito High School  <b>Lat, lon:</b> 37.908, -122.295 <b>Height (ground, sea):</b> 10.732, 34.613781 <b>Deployed:</b> 2013-02-13 <b>Group:</b> ['ContraCosta', "Richmond 1 - Naomi's Subnetwork"]</div>`)[0];
+            popup_1bf9443a367f490e852c1fca1b5f1d88.setContent(html_e7f1899afe994dbc91eb53f25629ef15);
+        
+
+        marker_d4c8ce0f23dd464b905f62c3eeeffcdf.bindPopup(popup_1bf9443a367f490e852c1fca1b5f1d88)
+        ;
+
+        
+    
+    
+            marker_d4c8ce0f23dd464b905f62c3eeeffcdf.bindTooltip(
+                `<div>
+                     El Cerrito High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2155edb1ad8441b2b4e8ba8fcb760e03 = L.marker(
+                [37.974, -122.275],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_da9bb117bee8471c8e356187f5328455 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         51  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_2155edb1ad8441b2b4e8ba8fcb760e03.setIcon(div_icon_da9bb117bee8471c8e356187f5328455);
+        
+    
+        var popup_a99155a2016c494c8ba5769ff028af8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44511bc5df3a41129e273f79c5d59111 = $(`<div id="html_44511bc5df3a41129e273f79c5d59111" style="width: 100.0%; height: 100.0%;"><b>Name:</b> El Sobrante  <b>Lat, lon:</b> 37.974, -122.275 <b>Height (ground, sea):</b> nan, 128.733475 <b>Deployed:</b> 2018-04-27 <b>Group:</b> ['ContraCosta', 'Richmond']</div>`)[0];
+            popup_a99155a2016c494c8ba5769ff028af8a.setContent(html_44511bc5df3a41129e273f79c5d59111);
+        
+
+        marker_2155edb1ad8441b2b4e8ba8fcb760e03.bindPopup(popup_a99155a2016c494c8ba5769ff028af8a)
+        ;
+
+        
+    
+    
+            marker_2155edb1ad8441b2b4e8ba8fcb760e03.bindTooltip(
+                `<div>
+                     El Sobrante
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abc2330d091f445ba44e8274e290eaff = L.marker(
+                [37.9, -122.263],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_4925ee925ce948119e9eb0598176af27 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         52  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_abc2330d091f445ba44e8274e290eaff.setIcon(div_icon_4925ee925ce948119e9eb0598176af27);
+        
+    
+        var popup_e93f0f9e24df406ab95d8b59b67b66de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f3733d666f6483a930826ed931f362a = $(`<div id="html_9f3733d666f6483a930826ed931f362a" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Kensington Hilltop Elementary School  <b>Lat, lon:</b> 37.9, -122.263 <b>Height (ground, sea):</b> 1.42, 301.481934 <b>Deployed:</b> 2018-05-05 <b>Group:</b> ['ContraCosta']</div>`)[0];
+            popup_e93f0f9e24df406ab95d8b59b67b66de.setContent(html_9f3733d666f6483a930826ed931f362a);
+        
+
+        marker_abc2330d091f445ba44e8274e290eaff.bindPopup(popup_e93f0f9e24df406ab95d8b59b67b66de)
+        ;
+
+        
+    
+    
+            marker_abc2330d091f445ba44e8274e290eaff.bindTooltip(
+                `<div>
+                     Kensington Hilltop Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91b556201dd14e3583a06ba72197c903 = L.marker(
+                [37.809, -122.263],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_783a5a65a657477eae6fb8c243891ee8 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         54  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_91b556201dd14e3583a06ba72197c903.setIcon(div_icon_783a5a65a657477eae6fb8c243891ee8);
+        
+    
+        var popup_607503daa8684729abc9f37ddfd0fa5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9def545dbee5404a9e1610c6e4856533 = $(`<div id="html_9def545dbee5404a9e1610c6e4856533" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Kaiser Building  <b>Lat, lon:</b> 37.809, -122.263 <b>Height (ground, sea):</b> 119.0, 3.728773 <b>Deployed:</b> 2018-05-10 <b>Group:</b> ['Alameda', "SF Nodes - Anna's Subnetwork"]</div>`)[0];
+            popup_607503daa8684729abc9f37ddfd0fa5f.setContent(html_9def545dbee5404a9e1610c6e4856533);
+        
+
+        marker_91b556201dd14e3583a06ba72197c903.bindPopup(popup_607503daa8684729abc9f37ddfd0fa5f)
+        ;
+
+        
+    
+    
+            marker_91b556201dd14e3583a06ba72197c903.bindTooltip(
+                `<div>
+                     Kaiser Building
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_086b3ffab81d4553b2a0c67a1607fd30 = L.marker(
+                [37.819, -122.181],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_6038269d068d4e2e81d6aa4c70505ab4 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         55  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_086b3ffab81d4553b2a0c67a1607fd30.setIcon(div_icon_6038269d068d4e2e81d6aa4c70505ab4);
+        
+    
+        var popup_0402b8bbae9d421d91fab0989b64cb51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_154a698f410e43efbe0a796148206a2f = $(`<div id="html_154a698f410e43efbe0a796148206a2f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Chabot Space & Science Center  <b>Lat, lon:</b> 37.819, -122.181 <b>Height (ground, sea):</b> 9.0, 466.646179 <b>Deployed:</b> 2014-08-15 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_0402b8bbae9d421d91fab0989b64cb51.setContent(html_154a698f410e43efbe0a796148206a2f);
+        
+
+        marker_086b3ffab81d4553b2a0c67a1607fd30.bindPopup(popup_0402b8bbae9d421d91fab0989b64cb51)
+        ;
+
+        
+    
+    
+            marker_086b3ffab81d4553b2a0c67a1607fd30.bindTooltip(
+                `<div>
+                     Chabot Space & Science Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e6dbdfeefb84b6c811ea4a11bf60ead = L.marker(
+                [37.876, -122.252],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_bd507847103e4edd9d40f82364cdcc6b = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         56  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_0e6dbdfeefb84b6c811ea4a11bf60ead.setIcon(div_icon_bd507847103e4edd9d40f82364cdcc6b);
+        
+    
+        var popup_f98652cb975841f298e48f397b182466 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_442940c123ad4205b740ff4e8434832b = $(`<div id="html_442940c123ad4205b740ff4e8434832b" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LBNL Bldg 70  <b>Lat, lon:</b> 37.876, -122.252 <b>Height (ground, sea):</b> 10.3, 234.966629 <b>Deployed:</b> 2014-08-14 <b>Group:</b> ['Alameda', "SF Nodes - Anna's Subnetwork"]</div>`)[0];
+            popup_f98652cb975841f298e48f397b182466.setContent(html_442940c123ad4205b740ff4e8434832b);
+        
+
+        marker_0e6dbdfeefb84b6c811ea4a11bf60ead.bindPopup(popup_f98652cb975841f298e48f397b182466)
+        ;
+
+        
+    
+    
+            marker_0e6dbdfeefb84b6c811ea4a11bf60ead.bindTooltip(
+                `<div>
+                     LBNL Bldg 70
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_492de22baee64fb4ace78533b14e232e = L.marker(
+                [38.101, -122.214],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_df6922c795444b768b76365f247a5ea7 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         57  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_492de22baee64fb4ace78533b14e232e.setIcon(div_icon_df6922c795444b768b76365f247a5ea7);
+        
+    
+        var popup_9328511715ce4dd49951faecba3ed1b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86b83d0408ca425fbc4b41ac1d1d8350 = $(`<div id="html_86b83d0408ca425fbc4b41ac1d1d8350" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Hogan Middle School  <b>Lat, lon:</b> 38.101, -122.214 <b>Height (ground, sea):</b> 11.709, 19.140265 <b>Deployed:</b> 2018-06-11 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_9328511715ce4dd49951faecba3ed1b8.setContent(html_86b83d0408ca425fbc4b41ac1d1d8350);
+        
+
+        marker_492de22baee64fb4ace78533b14e232e.bindPopup(popup_9328511715ce4dd49951faecba3ed1b8)
+        ;
+
+        
+    
+    
+            marker_492de22baee64fb4ace78533b14e232e.bindTooltip(
+                `<div>
+                     Hogan Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_581a92dda9804607a33332a29a203b19 = L.marker(
+                [38.126, -122.24],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_ca749e630a914c7c9e892907058a84d3 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         58  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_581a92dda9804607a33332a29a203b19.setIcon(div_icon_ca749e630a914c7c9e892907058a84d3);
+        
+    
+        var popup_d2e8eb6197a4430fadb3c7b9908e7c07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d85d25dbb1dd41ce80a8bbe41cfe49b6 = $(`<div id="html_d85d25dbb1dd41ce80a8bbe41cfe49b6" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Cooper Elementary School  <b>Lat, lon:</b> 38.126, -122.24 <b>Height (ground, sea):</b> 7.529, 36.245808 <b>Deployed:</b> 2018-06-11 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_d2e8eb6197a4430fadb3c7b9908e7c07.setContent(html_d85d25dbb1dd41ce80a8bbe41cfe49b6);
+        
+
+        marker_581a92dda9804607a33332a29a203b19.bindPopup(popup_d2e8eb6197a4430fadb3c7b9908e7c07)
+        ;
+
+        
+    
+    
+            marker_581a92dda9804607a33332a29a203b19.bindTooltip(
+                `<div>
+                     Cooper Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed33c134556d4e6ab4e8e4562491c4b2 = L.marker(
+                [38.114, -122.234],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_3dd56aab581c4d578c41852af91ab2de = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         59  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_ed33c134556d4e6ab4e8e4562491c4b2.setIcon(div_icon_3dd56aab581c4d578c41852af91ab2de);
+        
+    
+        var popup_7aa79d3002994b43bcdf090a98043119 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef72fef24e0b4615a66c9b7823fd396e = $(`<div id="html_ef72fef24e0b4615a66c9b7823fd396e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Highland Elementary School  <b>Lat, lon:</b> 38.114, -122.234 <b>Height (ground, sea):</b> 5.766, 22.237507 <b>Deployed:</b> 2018-06-11 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_7aa79d3002994b43bcdf090a98043119.setContent(html_ef72fef24e0b4615a66c9b7823fd396e);
+        
+
+        marker_ed33c134556d4e6ab4e8e4562491c4b2.bindPopup(popup_7aa79d3002994b43bcdf090a98043119)
+        ;
+
+        
+    
+    
+            marker_ed33c134556d4e6ab4e8e4562491c4b2.bindTooltip(
+                `<div>
+                     Highland Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9370451620c6408789e126f04cef7175 = L.marker(
+                [38.121, -122.205],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_fa17b47a44b34c0997e356d61a43480a = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         60  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_9370451620c6408789e126f04cef7175.setIcon(div_icon_fa17b47a44b34c0997e356d61a43480a);
+        
+    
+        var popup_5a9c9778c47441ed954270cb79dd98bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee5327e6557841499b8191b9b4240c12 = $(`<div id="html_ee5327e6557841499b8191b9b4240c12" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Jesse Bethel High School  <b>Lat, lon:</b> 38.121, -122.205 <b>Height (ground, sea):</b> 9.318, 81.352669 <b>Deployed:</b> 2018-06-11 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_5a9c9778c47441ed954270cb79dd98bf.setContent(html_ee5327e6557841499b8191b9b4240c12);
+        
+
+        marker_9370451620c6408789e126f04cef7175.bindPopup(popup_5a9c9778c47441ed954270cb79dd98bf)
+        ;
+
+        
+    
+    
+            marker_9370451620c6408789e126f04cef7175.bindTooltip(
+                `<div>
+                     Jesse Bethel High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69fd1a35ed5e4495bd46513bd42353b1 = L.marker(
+                [38.133, -122.249],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_039bc805574c44f7adde30adb57e71c1 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         61  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_69fd1a35ed5e4495bd46513bd42353b1.setIcon(div_icon_039bc805574c44f7adde30adb57e71c1);
+        
+    
+        var popup_77e0c69cca134a7e92151e4b06718c5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbde258a0ce24b4093c0c2e71f8e8d57 = $(`<div id="html_bbde258a0ce24b4093c0c2e71f8e8d57" style="width: 100.0%; height: 100.0%;"><b>Name:</b> John W. Finney High School  <b>Lat, lon:</b> 38.133, -122.249 <b>Height (ground, sea):</b> 6.815, 11.232645 <b>Deployed:</b> 2018-06-12 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_77e0c69cca134a7e92151e4b06718c5c.setContent(html_bbde258a0ce24b4093c0c2e71f8e8d57);
+        
+
+        marker_69fd1a35ed5e4495bd46513bd42353b1.bindPopup(popup_77e0c69cca134a7e92151e4b06718c5c)
+        ;
+
+        
+    
+    
+            marker_69fd1a35ed5e4495bd46513bd42353b1.bindTooltip(
+                `<div>
+                     John W. Finney High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4aa3d9d21602451589291c1fbef92084 = L.marker(
+                [38.147, -122.245],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_4f181839c81d4dcc88c2dcc877f8701c = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         62  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_4aa3d9d21602451589291c1fbef92084.setIcon(div_icon_4f181839c81d4dcc88c2dcc877f8701c);
+        
+    
+        var popup_e0aec523be1643a1838c8443d91957e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0988f416147d407eb4e253552e397e36 = $(`<div id="html_0988f416147d407eb4e253552e397e36" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Elsa Widenmann Elementary School  <b>Lat, lon:</b> 38.147, -122.245 <b>Height (ground, sea):</b> 4.26, 23.243189 <b>Deployed:</b> 2018-06-12 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_e0aec523be1643a1838c8443d91957e3.setContent(html_0988f416147d407eb4e253552e397e36);
+        
+
+        marker_4aa3d9d21602451589291c1fbef92084.bindPopup(popup_e0aec523be1643a1838c8443d91957e3)
+        ;
+
+        
+    
+    
+            marker_4aa3d9d21602451589291c1fbef92084.bindTooltip(
+                `<div>
+                     Elsa Widenmann Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f24f07b22dd4439abd7de973f573697 = L.marker(
+                [38.15, -122.259],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_6f8153087edd4decbff0c7c2c8d8448a = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         63  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_5f24f07b22dd4439abd7de973f573697.setIcon(div_icon_6f8153087edd4decbff0c7c2c8d8448a);
+        
+    
+        var popup_11b8a1642f064019af75ee639cd4e8e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a80a757bc554bcf86aa59a294eef2a1 = $(`<div id="html_4a80a757bc554bcf86aa59a294eef2a1" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Dan Mini Elementary School  <b>Lat, lon:</b> 38.15, -122.259 <b>Height (ground, sea):</b> 3.383, 6.31794 <b>Deployed:</b> 2018-06-12 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_11b8a1642f064019af75ee639cd4e8e3.setContent(html_4a80a757bc554bcf86aa59a294eef2a1);
+        
+
+        marker_5f24f07b22dd4439abd7de973f573697.bindPopup(popup_11b8a1642f064019af75ee639cd4e8e3)
+        ;
+
+        
+    
+    
+            marker_5f24f07b22dd4439abd7de973f573697.bindTooltip(
+                `<div>
+                     Dan Mini Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fdbef6b1c0e468793ae15697b39df82 = L.marker(
+                [38.123, -122.269],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_912868a838714b1abedaf38e4fcb6c02 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         64  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_7fdbef6b1c0e468793ae15697b39df82.setIcon(div_icon_912868a838714b1abedaf38e4fcb6c02);
+        
+    
+        var popup_cc705f8d863c40359f135ee532d826c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13bc656d1bcd4ffa888dc7433dc4e913 = $(`<div id="html_13bc656d1bcd4ffa888dc7433dc4e913" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Federal Terrace Elementary School  <b>Lat, lon:</b> 38.123, -122.269 <b>Height (ground, sea):</b> 1.54, 15.790818 <b>Deployed:</b> 2018-06-12 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_cc705f8d863c40359f135ee532d826c5.setContent(html_13bc656d1bcd4ffa888dc7433dc4e913);
+        
+
+        marker_7fdbef6b1c0e468793ae15697b39df82.bindPopup(popup_cc705f8d863c40359f135ee532d826c5)
+        ;
+
+        
+    
+    
+            marker_7fdbef6b1c0e468793ae15697b39df82.bindTooltip(
+                `<div>
+                     Federal Terrace Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53d6c6b5bfea4a5687e3e62c0dde6459 = L.marker(
+                [38.095, -122.274],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_b2eb805aca5a48aaa06d16951323289d = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         65  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_53d6c6b5bfea4a5687e3e62c0dde6459.setIcon(div_icon_b2eb805aca5a48aaa06d16951323289d);
+        
+    
+        var popup_3faf590c3ba44bc3843149a1b61b910e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50917ca5e1aa42b99f412af3a1237caf = $(`<div id="html_50917ca5e1aa42b99f412af3a1237caf" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Mare Island Health and Fitness Academy  <b>Lat, lon:</b> 38.095, -122.274 <b>Height (ground, sea):</b> 4.577, 9.791098 <b>Deployed:</b> 2018-06-12 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_3faf590c3ba44bc3843149a1b61b910e.setContent(html_50917ca5e1aa42b99f412af3a1237caf);
+        
+
+        marker_53d6c6b5bfea4a5687e3e62c0dde6459.bindPopup(popup_3faf590c3ba44bc3843149a1b61b910e)
+        ;
+
+        
+    
+    
+            marker_53d6c6b5bfea4a5687e3e62c0dde6459.bindTooltip(
+                `<div>
+                     Mare Island Health and Fitness Academy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76104b97ceda4b2a8c011e9013b10cd8 = L.marker(
+                [38.104, -122.254],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_33318ceec3d3416db5d9044dd998fe93 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         78  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_76104b97ceda4b2a8c011e9013b10cd8.setIcon(div_icon_33318ceec3d3416db5d9044dd998fe93);
+        
+    
+        var popup_412954a95ffa4265ba77a726940c76d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cbe971a444c4844987bda7fe5a3c8be = $(`<div id="html_4cbe971a444c4844987bda7fe5a3c8be" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Lincoln Elementary School  <b>Lat, lon:</b> 38.104, -122.254 <b>Height (ground, sea):</b> nan, 28.501556 <b>Deployed:</b> 2018-06-13 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_412954a95ffa4265ba77a726940c76d8.setContent(html_4cbe971a444c4844987bda7fe5a3c8be);
+        
+
+        marker_76104b97ceda4b2a8c011e9013b10cd8.bindPopup(popup_412954a95ffa4265ba77a726940c76d8)
+        ;
+
+        
+    
+    
+            marker_76104b97ceda4b2a8c011e9013b10cd8.bindTooltip(
+                `<div>
+                     Lincoln Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9812297632864da9bab3151325a1087b = L.marker(
+                [38.099, -122.233],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_f524f2d7eae34070ad35ae2098883cf2 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         79  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_9812297632864da9bab3151325a1087b.setIcon(div_icon_f524f2d7eae34070ad35ae2098883cf2);
+        
+    
+        var popup_b8ecef6286ef4f42a8e2eca97adc14f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4969fd866a3b47a0893788f62ac21714 = $(`<div id="html_4969fd866a3b47a0893788f62ac21714" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Franklin Middle School  <b>Lat, lon:</b> 38.099, -122.233 <b>Height (ground, sea):</b> 6.782, 18.541939 <b>Deployed:</b> 2018-06-13 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_b8ecef6286ef4f42a8e2eca97adc14f1.setContent(html_4969fd866a3b47a0893788f62ac21714);
+        
+
+        marker_9812297632864da9bab3151325a1087b.bindPopup(popup_b8ecef6286ef4f42a8e2eca97adc14f1)
+        ;
+
+        
+    
+    
+            marker_9812297632864da9bab3151325a1087b.bindTooltip(
+                `<div>
+                     Franklin Middle School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5cd1272532449a8a63465ca8404efdd = L.marker(
+                [38.08, -122.238],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_8d996cbc52ac4b9bae9b68e42570a0d6 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         80  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_c5cd1272532449a8a63465ca8404efdd.setIcon(div_icon_8d996cbc52ac4b9bae9b68e42570a0d6);
+        
+    
+        var popup_eb70d2dcdff449249f15ef40b29ae83e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf430b2b4fd04ccc9503f884e942e34b = $(`<div id="html_bf430b2b4fd04ccc9503f884e942e34b" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Grace Patterson Elementary School  <b>Lat, lon:</b> 38.08, -122.238 <b>Height (ground, sea):</b> 6.562, 31.224571 <b>Deployed:</b> 2018-06-13 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_eb70d2dcdff449249f15ef40b29ae83e.setContent(html_bf430b2b4fd04ccc9503f884e942e34b);
+        
+
+        marker_c5cd1272532449a8a63465ca8404efdd.bindPopup(popup_eb70d2dcdff449249f15ef40b29ae83e)
+        ;
+
+        
+    
+    
+            marker_c5cd1272532449a8a63465ca8404efdd.bindTooltip(
+                `<div>
+                     Grace Patterson Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b592f8f420ec4ef6b189b53b9ff3c6e6 = L.marker(
+                [38.087, -122.225],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_641ab69e93b34286a20e68418ce02d9c = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         81  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_b592f8f420ec4ef6b189b53b9ff3c6e6.setIcon(div_icon_641ab69e93b34286a20e68418ce02d9c);
+        
+    
+        var popup_35b5e297e92347ae800e725c55b630e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8d4a2e2c1984f8bab169667745b6593 = $(`<div id="html_f8d4a2e2c1984f8bab169667745b6593" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Beverly Hills Elementary School  <b>Lat, lon:</b> 38.087, -122.225 <b>Height (ground, sea):</b> 3.723, 34.835358 <b>Deployed:</b> 2018-06-13 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_35b5e297e92347ae800e725c55b630e2.setContent(html_f8d4a2e2c1984f8bab169667745b6593);
+        
+
+        marker_b592f8f420ec4ef6b189b53b9ff3c6e6.bindPopup(popup_35b5e297e92347ae800e725c55b630e2)
+        ;
+
+        
+    
+    
+            marker_b592f8f420ec4ef6b189b53b9ff3c6e6.bindTooltip(
+                `<div>
+                     Beverly Hills Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0e38785ba304006bbe696caf5d90c5e = L.marker(
+                [38.075, -122.209],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_52f52d018c4c40ba9643bec2ae110a85 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         82  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_f0e38785ba304006bbe696caf5d90c5e.setIcon(div_icon_52f52d018c4c40ba9643bec2ae110a85);
+        
+    
+        var popup_8de3a33ddd55495c9c15322679ff5b80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad5653681fb744c8916c3df8db99f1ec = $(`<div id="html_ad5653681fb744c8916c3df8db99f1ec" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Glen Cove Elementary School  <b>Lat, lon:</b> 38.075, -122.209 <b>Height (ground, sea):</b> 4.826, 48.380985 <b>Deployed:</b> 2018-06-13 <b>Group:</b> ['Vallejo']</div>`)[0];
+            popup_8de3a33ddd55495c9c15322679ff5b80.setContent(html_ad5653681fb744c8916c3df8db99f1ec);
+        
+
+        marker_f0e38785ba304006bbe696caf5d90c5e.bindPopup(popup_8de3a33ddd55495c9c15322679ff5b80)
+        ;
+
+        
+    
+    
+            marker_f0e38785ba304006bbe696caf5d90c5e.bindTooltip(
+                `<div>
+                     Glen Cove Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_40111b6fd4b7486ab1ff8bf3be2d3c58 = L.marker(
+                [37.617, -122.069],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_fe820d3dcc544c85acef2a22b400990b = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         96  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_40111b6fd4b7486ab1ff8bf3be2d3c58.setIcon(div_icon_fe820d3dcc544c85acef2a22b400990b);
+        
+    
+        var popup_3566fe311a10495f89dcb5348dcde4b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b19028beba0c4044ad5ff49c2822f525 = $(`<div id="html_b19028beba0c4044ad5ff49c2822f525" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Brechtel Mfg  <b>Lat, lon:</b> 37.617, -122.069 <b>Height (ground, sea):</b> nan, 3.520097 <b>Deployed:</b> 2015-03-14 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_3566fe311a10495f89dcb5348dcde4b4.setContent(html_b19028beba0c4044ad5ff49c2822f525);
+        
+
+        marker_40111b6fd4b7486ab1ff8bf3be2d3c58.bindPopup(popup_3566fe311a10495f89dcb5348dcde4b4)
+        ;
+
+        
+    
+    
+            marker_40111b6fd4b7486ab1ff8bf3be2d3c58.bindTooltip(
+                `<div>
+                     Brechtel Mfg
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74645b344f0a48fca34a09193b928b0c = L.marker(
+                [37.866, -122.295],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_1e731b938e34413ead40f9a343377f86 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         98  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_74645b344f0a48fca34a09193b928b0c.setIcon(div_icon_1e731b938e34413ead40f9a343377f86);
+        
+    
+        var popup_06129a22017b48c78d9a6788f188eac1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a5650eccd0b436b82de62625ec5d67f = $(`<div id="html_0a5650eccd0b436b82de62625ec5d67f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Rosa Parks Elementary School  <b>Lat, lon:</b> 37.866, -122.295 <b>Height (ground, sea):</b> nan, 12.222523 <b>Deployed:</b> 2012-11-15 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_06129a22017b48c78d9a6788f188eac1.setContent(html_0a5650eccd0b436b82de62625ec5d67f);
+        
+
+        marker_74645b344f0a48fca34a09193b928b0c.bindPopup(popup_06129a22017b48c78d9a6788f188eac1)
+        ;
+
+        
+    
+    
+            marker_74645b344f0a48fca34a09193b928b0c.bindTooltip(
+                `<div>
+                     Rosa Parks Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c6571c1a5664cfc8124cc8b6f5ea65e = L.marker(
+                [37.808, -122.3],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_3d98da86066a4afbbd26d2c97147aaae = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         100  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_9c6571c1a5664cfc8124cc8b6f5ea65e.setIcon(div_icon_3d98da86066a4afbbd26d2c97147aaae);
+        
+    
+        var popup_0b411218e3e14c14b2d0f3110e493e97 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6d0827c3d3c433a9a3b88f5aea71a09 = $(`<div id="html_c6d0827c3d3c433a9a3b88f5aea71a09" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Prescott Elementary  <b>Lat, lon:</b> 37.808, -122.3 <b>Height (ground, sea):</b> nan, 5.940279 <b>Deployed:</b> 2012-12-12 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_0b411218e3e14c14b2d0f3110e493e97.setContent(html_c6d0827c3d3c433a9a3b88f5aea71a09);
+        
+
+        marker_9c6571c1a5664cfc8124cc8b6f5ea65e.bindPopup(popup_0b411218e3e14c14b2d0f3110e493e97)
+        ;
+
+        
+    
+    
+            marker_9c6571c1a5664cfc8124cc8b6f5ea65e.bindTooltip(
+                `<div>
+                     Prescott Elementary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f39ea57d2a984102b3eb371f41fb7500 = L.marker(
+                [37.772, -122.392],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_c01c07aae2454307b522cf050b32a625 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         125  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_f39ea57d2a984102b3eb371f41fb7500.setIcon(div_icon_c01c07aae2454307b522cf050b32a625);
+        
+    
+        var popup_a91cefb520fe40fbaca1c60f7f8193a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_373cd0f3bedb4dd79cb442ed20989897 = $(`<div id="html_373cd0f3bedb4dd79cb442ed20989897" style="width: 100.0%; height: 100.0%;"><b>Name:</b> SF Public Safety Building  <b>Lat, lon:</b> 37.772, -122.392 <b>Height (ground, sea):</b> nan, 2.379679 <b>Deployed:</b> 2019-03-01 <b>Group:</b> ['SanFrancisco', "SF Nodes - Anna's Subnetwork"]</div>`)[0];
+            popup_a91cefb520fe40fbaca1c60f7f8193a6.setContent(html_373cd0f3bedb4dd79cb442ed20989897);
+        
+
+        marker_f39ea57d2a984102b3eb371f41fb7500.bindPopup(popup_a91cefb520fe40fbaca1c60f7f8193a6)
+        ;
+
+        
+    
+    
+            marker_f39ea57d2a984102b3eb371f41fb7500.bindTooltip(
+                `<div>
+                     SF Public Safety Building
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2eab30b245649fa8556cee04778fead = L.marker(
+                [37.792, -122.196],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_5e23da9ed2064de19d5ef96db1427284 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         140  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_f2eab30b245649fa8556cee04778fead.setIcon(div_icon_5e23da9ed2064de19d5ef96db1427284);
+        
+    
+        var popup_cff5bc964aee49628c92b7f10ef5cdb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c85c926ad6cb45758679a69a60c28d6c = $(`<div id="html_c85c926ad6cb45758679a69a60c28d6c" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Laurel Elementary School  <b>Lat, lon:</b> 37.792, -122.196 <b>Height (ground, sea):</b> 12.0, nan <b>Deployed:</b> 2012-05-04 <b>Group:</b> ['Alameda']</div>`)[0];
+            popup_cff5bc964aee49628c92b7f10ef5cdb5.setContent(html_c85c926ad6cb45758679a69a60c28d6c);
+        
+
+        marker_f2eab30b245649fa8556cee04778fead.bindPopup(popup_cff5bc964aee49628c92b7f10ef5cdb5)
+        ;
+
+        
+    
+    
+            marker_f2eab30b245649fa8556cee04778fead.bindTooltip(
+                `<div>
+                     Laurel Elementary School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4a955081ee243d7a871c20c34261fc2 = L.marker(
+                [37.873, -122.268],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_e2be1f750a774d94991d244c1031c048 = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         280  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_f4a955081ee243d7a871c20c34261fc2.setIcon(div_icon_e2be1f750a774d94991d244c1031c048);
+        
+    
+        var popup_9567c7a2e7c143b5bb70f51429b2082c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad4beeb98c70418a8e1be9d5edbcaa85 = $(`<div id="html_ad4beeb98c70418a8e1be9d5edbcaa85" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Berkeley Way West  <b>Lat, lon:</b> 37.873, -122.268 <b>Height (ground, sea):</b> 30.0, nan <b>Deployed:</b> 2022-05-09 <b>Group:</b> ['Oakland']</div>`)[0];
+            popup_9567c7a2e7c143b5bb70f51429b2082c.setContent(html_ad4beeb98c70418a8e1be9d5edbcaa85);
+        
+
+        marker_f4a955081ee243d7a871c20c34261fc2.bindPopup(popup_9567c7a2e7c143b5bb70f51429b2082c)
+        ;
+
+        
+    
+    
+            marker_f4a955081ee243d7a871c20c34261fc2.bindTooltip(
+                `<div>
+                     Berkeley Way West
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e9fb40bf33540e4ba80c8259e2abf27 = L.marker(
+                [37.876, -122.267],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_deefdb3a002342fab036701dd5aaa1fe = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         281  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_1e9fb40bf33540e4ba80c8259e2abf27.setIcon(div_icon_deefdb3a002342fab036701dd5aaa1fe);
+        
+    
+        var popup_1315973e98ba46a280381a16f80cccbd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4a3f918ce344547ba3ded9619391e16 = $(`<div id="html_b4a3f918ce344547ba3ded9619391e16" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Oxford Tract Greenhouse  <b>Lat, lon:</b> 37.876, -122.267 <b>Height (ground, sea):</b> 3.0, nan <b>Deployed:</b> 2022-06-08 <b>Group:</b> ['Oakland']</div>`)[0];
+            popup_1315973e98ba46a280381a16f80cccbd.setContent(html_b4a3f918ce344547ba3ded9619391e16);
+        
+
+        marker_1e9fb40bf33540e4ba80c8259e2abf27.bindPopup(popup_1315973e98ba46a280381a16f80cccbd)
+        ;
+
+        
+    
+    
+            marker_1e9fb40bf33540e4ba80c8259e2abf27.bindTooltip(
+                `<div>
+                     Oxford Tract Greenhouse
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a34fab2b53674c86b10a74dfe9979338 = L.marker(
+                [37.847, -122.28],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var div_icon_dca932f6ab99481c9ceacc977af8b1ba = L.divIcon({"className": "empty", "html": "\u003cspan class=\"fa-stack \" style=\"font-size: 12pt\" \u003e\u003e\n                    \u003c!-- The icon that will wrap the number --\u003e\n                    \u003cspan class=\"fa fa-circle-o fa-stack-2x\" style=\"color : blue\"\u003e\u003c/span\u003e\n                    \u003c!-- a strong element with the custom content, in this case a number --\u003e\n                    \u003cstrong class=\"fa-stack-1x\"\u003e\n                         286  \n                    \u003c/strong\u003e\n                \u003c/span\u003e", "iconAnchor": [14, 40], "iconSize": [150, 36]});
+            marker_a34fab2b53674c86b10a74dfe9979338.setIcon(div_icon_dca932f6ab99481c9ceacc977af8b1ba);
+        
+    
+        var popup_48b5369667e84bb7a4d78f96c7d075c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fca6864e023f4a2a8aaad5ed3763d48f = $(`<div id="html_fca6864e023f4a2a8aaad5ed3763d48f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> Paradise Park  <b>Lat, lon:</b> 37.847, -122.28 <b>Height (ground, sea):</b> nan, nan <b>Deployed:</b> 2022-07-13 <b>Group:</b> ['Alameda', 'Oakland']</div>`)[0];
+            popup_48b5369667e84bb7a4d78f96c7d075c8.setContent(html_fca6864e023f4a2a8aaad5ed3763d48f);
+        
+
+        marker_a34fab2b53674c86b10a74dfe9979338.bindPopup(popup_48b5369667e84bb7a4d78f96c7d075c8)
+        ;
+
+        
+    
+    
+            marker_a34fab2b53674c86b10a74dfe9979338.bindTooltip(
+                `<div>
+                     Paradise Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f42f05f7b6f480ba831809458d30ca6 = L.marker(
+                [37.950922, -122.398597],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var icon_4c60c3dbe2344363ae6f64ab4d0c750e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_5f42f05f7b6f480ba831809458d30ca6.setIcon(icon_4c60c3dbe2344363ae6f64ab4d0c750e);
+        
+    
+            marker_5f42f05f7b6f480ba831809458d30ca6.bindTooltip(
+                `<div>
+                     Chevron Richmond Refinery (2)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f953d5b99ac46acbe34212263b6904c = L.marker(
+                [38.045993, -122.255398],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var icon_a2f4fa80a1f942c9859c7e5d62aacfbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_4f953d5b99ac46acbe34212263b6904c.setIcon(icon_a2f4fa80a1f942c9859c7e5d62aacfbc);
+        
+    
+            marker_4f953d5b99ac46acbe34212263b6904c.bindTooltip(
+                `<div>
+                     Phillips 66 San Francisco Refinery (5)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2322768122d649458ef149577d83ed50 = L.marker(
+                [38.015677, -122.112311],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var icon_a3fd9e5282c74bb2bc51dfe611dd7ecd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_2322768122d649458ef149577d83ed50.setIcon(icon_a3fd9e5282c74bb2bc51dfe611dd7ecd);
+        
+    
+            marker_2322768122d649458ef149577d83ed50.bindTooltip(
+                `<div>
+                     Shell Martinez Refinery (1)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02121e13900d46f6bd773ddfc27509c6 = L.marker(
+                [38.024501, -122.063448],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var icon_85ca41ebc72e4b769e082993c43c9ea4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_02121e13900d46f6bd773ddfc27509c6.setIcon(icon_85ca41ebc72e4b769e082993c43c9ea4);
+        
+    
+            marker_02121e13900d46f6bd773ddfc27509c6.bindTooltip(
+                `<div>
+                     Tesoro Golden Eagle Refinery (3)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4514b53e25547e68e4dc3d876b54643 = L.marker(
+                [38.071469, -122.138609],
+                {}
+            ).addTo(map_c159819e67bc428db796027bfbac3441);
+        
+    
+            var icon_9e6ed26dfa3c44ddaeee641d955c881b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_b4514b53e25547e68e4dc3d876b54643.setIcon(icon_9e6ed26dfa3c44ddaeee641d955c881b);
+        
+    
+            marker_b4514b53e25547e68e4dc3d876b54643.bindTooltip(
+                `<div>
+                     Valero Benicia Refinery (4)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+                var lat_lng_popup_608c1ea2bd234776a4a8d3000768917e = L.popup();
+                function latLngPop(e) {
+                    lat_lng_popup_608c1ea2bd234776a4a8d3000768917e
+                        .setLatLng(e.latlng)
+                        .setContent("Latitude: " + e.latlng.lat.toFixed(4) +
+                                    "<br>Longitude: " + e.latlng.lng.toFixed(4))
+                        .openOn(map_c159819e67bc428db796027bfbac3441);
+                    }
+                map_c159819e67bc428db796027bfbac3441.on('click', latLngPop);
+            
+    
+            var tile_layer_e57ebf3b96a949c7b3f60a0310b53bf9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+            var mini_map_566834478a58449da8694b7136f7b75b = new L.Control.MiniMap(
+                tile_layer_e57ebf3b96a949c7b3f60a0310b53bf9,
+                {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": false, "position": "bottomright", "toggleDisplay": true, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
+            );
+            map_c159819e67bc428db796027bfbac3441.addControl(mini_map_566834478a58449da8694b7136f7b75b);
+        
+</script>
